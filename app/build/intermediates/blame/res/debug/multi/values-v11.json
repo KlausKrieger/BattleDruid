@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\Klaus\\AndroidStudioProjects\\BattleDruid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Users\\Klaus\\AndroidStudioProjects\\BattleDruid\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 95,
+                        "endColumn": 58,
+                        "endOffset": 149
+                    }
+                }
+            }
+        ]
+    }
+]

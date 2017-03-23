@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutCombatants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/druidLines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:id="@+id/druidNameView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/druidHealthLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/druidIconHealth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/health" >
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/druidHealthView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/druidManaLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/druidIconEnergy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/energy" >
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/druidEnergyView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/druidButtonActiveEffects"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ActiveEffectsButton" >
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/enemyLines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:id="@+id/enemyNameView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/enemyHealthLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/enemyHealthView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textAppearance="?android:attr/textAppearanceMedium" >
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/enemyIconHealth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/health" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/enemyManaLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/enemyEnergyView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <ImageView
+                    android:id="@+id/enemyIconEnergy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/energy" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/enemyButtonActiveEffects"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ActiveEffectsButton" >
+            </Button>
+            <Button
+                android:id="@+id/enemyButtonChallenge"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ChallengeButton" >
+            </Button>
+            
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

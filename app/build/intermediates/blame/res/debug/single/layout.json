@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Klaus\\AndroidStudioProjects\\BattleDruid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_spell.xml",
+        "source": "C:\\Users\\Klaus\\AndroidStudioProjects\\BattleDruid\\app\\src\\main\\res\\layout\\list_item_spell.xml"
+    },
+    {
+        "merged": "C:\\Users\\Klaus\\AndroidStudioProjects\\BattleDruid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\active_effects_dialog.xml",
+        "source": "C:\\Users\\Klaus\\AndroidStudioProjects\\BattleDruid\\app\\src\\main\\res\\layout\\active_effects_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Klaus\\AndroidStudioProjects\\BattleDruid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Klaus\\AndroidStudioProjects\\BattleDruid\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Klaus\\AndroidStudioProjects\\BattleDruid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_active_effect.xml",
+        "source": "C:\\Users\\Klaus\\AndroidStudioProjects\\BattleDruid\\app\\src\\main\\res\\layout\\list_item_active_effect.xml"
+    }
+]

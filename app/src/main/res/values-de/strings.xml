@@ -1,0 +1,67 @@
+<resources>
+
+    <string name="app_name">BattleDruid</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="title_activity_main">BattleDruid</string>
+    <string name="energy">Mana</string>
+    <string name="health">Leben</string>
+    <string name="out_of_energy">kein Mana</string>
+    <string name="skill_gained">Deine Zaubermacht wächst!</string>
+    <string name="ActiveEffectsButton">Effekte zeigen</string>
+    <string name="ChallengeButton">Duell</string>
+    <string name="spell_firestaff">Feuerstab</string>
+    <string name="spell_icestaff">Eisstab</string>
+    <string name="spell_matterstaff">Kampfstab</string>
+    <string name="spell_firearrow">Feuerpfeil</string>
+    <string name="spell_icebolt">Eisbolzen</string>
+    <string name="spell_falling_rocks">Steinschlag</string>
+    <string name="spell_ignite">Entzünden</string>
+    <string name="spell_freeze">Einfrieren</string>
+    <string name="spell_insects">Insekten</string>
+    <string name="spell_resist_heat">Hitze widerstehen</string>
+    <string name="spell_resist_cold">Kälte widerstehen</string>
+    <string name="spell_resist_matter">Materie widerstehen</string>
+    <string name="active_effect_res_buff_line2">Ignoriert %1$s-Schaden: %2$d</string>
+    <string name="active_effect_dot_line2">Regelmäßiger %1$s-Schaden: %2$d</string>
+    <string name="duration">Dauer: </string>
+    <string name="ticks">Verbleibende Ticks: </string>
+    <string name="fire">Feuer</string>
+    <string name="ice">Eis</string>
+    <string name="matter">Materie</string>
+    <string name="direct_damage">Direktschaden</string>
+    <string name="melee">Nahkampf</string>
+    <string name="damage_over_time">Dauerschaden</string>
+    <string name="resistance">Resistenz</string>
+    <string name="ActiveEffects">Aktive Effekte</string>
+    <string name="cast_message">%1$s zaubert %2$s.</string>
+    <string name="dd_damage">%1$s nimmt %2$d Punkte %3$s-Schaden.</string>
+    <string name="melee_damage">%1$s nimmt %2$d Punkte %3$s-Schaden.</string>
+    <string name="dot_damage">%1$s verursacht %2$d Punkte %3$s-Schaden bei %4$s.</string>
+    <string name="mana_cost">Mana-Kosten: </string>
+    <string name="unconscious">Du bist bewusstlos!</string>
+    <string name="message_victory">Sieg!</string>
+    <string name="message_defeat">Du wurdest besiegt!</string>
+    
+    <string-array name="stories">
+        <item >Du bist Jashiro, ein junger Druidenlehrling, bewusstlos und schwer verwundet gefunden von Zauberern der Magiergilde. \nOhne Erinnerung an Dein früheres Leben wurdest Du zur Magierakademie gebracht und als Lehrling aufgenommen, um Dir die Chance zu geben, ihre Künste zu studieren (und ihnen die Chance zu geben, Dich zu studieren). \nDeine hochnäsigen Mitschüler verspotten Dich unablässig als unzivilisierten und stinkenden Barbaren. \nEines Tages verlierst Du die Beherrschung und forderst Fred, einen der Aufwiegler, zu einem (geheimen weil verbotenen) Duell. \nGlücklicherweise liegt die Wahl des Zeitpunkt für das Duell bei Dir, also wähle weise und bereite Dich gut vor - und hoffe, dass die Herren Professoren nichts davon mitbekommen.</item>
+    </string-array>
+    
+    <string-array name="victories">
+        <item >--- not used ---</item>
+        <item >--- not used ---</item>
+        <item >Du hast Fred besiegt, er hat seine Lektion nun gelernt und belästigt Dich nicht mehr. \nAber im letzten Kampf hast Du Dir ein paar Haare verbrannt und eine andere Schülerin, Ivy genannt, macht weiterhin fiese Witze über Dein Äusseres. \nJemand sollte auch ihr eine Lehre erteilen.</item>
+        <item >Ivy geht schliesslich zu Boden und die Kälte verschwindet langsam. \nMognor, ein anderer Mitschüler und der Freund von Ivy rast vor Wut. \nEr hatte nicht damit gerechnet, dass Du sie besiegen würdest, nun aber sah er sie vor Schmerzen zusammenbrechen. \nDu hast Dir soeben einen neuen Feind gemacht. \nWenn Du ihn ebenfalls duellierst, wirst Du jeden anderen Lehrling des ersten Lehrjahres bekämpft haben. \nUnd Mognor wird Dich nicht anders aus dieser Sache entkommen lassen.</item>
+        <item >Du hast auch Mognor besiegt und Dich damit mit allen anderen Lehrlingen des ersten Lehrjahres duelliert. \nGemäß der Hausordnung der Akademie bekommt Du schwerwiegende Probleme, wenn die Herren Professoren davon Wind bekommen. \nDerzeit sieht es allerdings so aus, als wüssten nur die anderen Schüler von Deinen nächtlichen Kämpfen. \nDie Geschichten verbreiten sich immer weiter unter ihnen: \nTonkar, ein Schüler im zweiten Lehrjahr, verhöhnt Dich mit der Bemerkung, Du wärst der Champion aus den \'Prügeleien der Babies\'.</item>
+        <item >Du hast auch Tonkar besiegt. Doch er will sich nicht geschlagen geben und fordert einen Rückkampf.</item>
+    </string-array>
+    
+    <string-array name="defeats">
+        <item >--- not used ---</item>
+        <item >--- not used ---</item>
+        <item >Du wurdest von Fred besiegt, gibst aber nicht auf und forderst einen Rückkampf!</item>
+        <item >Du wurdest von Ivy besiegt, gibst aber nicht auf und forderst einen Rückkampf!</item>
+        <item >Du wurdest von Mognor besiegt, gibst aber nicht auf und forderst einen Rückkampf!</item>
+        <item >Du wurdest von Tonkar besiegt, gibst aber nicht auf und forderst einen Rückkampf!</item>
+    </string-array>
+
+</resources>
