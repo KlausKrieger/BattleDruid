@@ -45,6 +45,8 @@ import de.kriegergilde.battledruid.model.SpellSkill;
  * async tasks enden nie bzw stapeln ewig (s. debugger)
  * 
  * TODOs ansehen
+ *
+ * TODO sortierung der spells nicht iO?
  * 
  * stäbe müssen irgendwie resistenzen brechen können oder besser werden
  * spätestens wenn die ersten npcs 3 resistenzen haben
