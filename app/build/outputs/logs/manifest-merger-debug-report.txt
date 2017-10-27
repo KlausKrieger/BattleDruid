@@ -17,6 +17,14 @@ ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\Android
 		ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:1:11-69
 uses-sdk
 ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Klaus\.android\build-cache\ea269d3f05491e9a80a8f539f2924ab75f1edcab\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Klaus\.android\build-cache\7215083d24d0d12a4cfaf942e121772067669bcf\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Klaus\.android\build-cache\930a30fa49d4094629b03a780cd72d31822dbf65\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Klaus\.android\build-cache\ebb24c5ef6464fbb15436beb5a28574c15348136\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Klaus\.android\build-cache\6e8df0beadec31b13542fa025ab7b78bd3baa263\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Klaus\.android\build-cache\82084442439c2b8407069e5fb6601918fa014535\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Klaus\.android\build-cache\ea269d3f05491e9a80a8f539f2924ab75f1edcab\output\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:8:9-38
 		INJECTED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml
@@ -27,6 +35,12 @@ ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\Android
 		INJECTED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml
 application
 ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:10:5-24:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Klaus\.android\build-cache\ea269d3f05491e9a80a8f539f2924ab75f1edcab\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Klaus\.android\build-cache\7215083d24d0d12a4cfaf942e121772067669bcf\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Klaus\.android\build-cache\930a30fa49d4094629b03a780cd72d31822dbf65\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Klaus\.android\build-cache\ebb24c5ef6464fbb15436beb5a28574c15348136\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Klaus\.android\build-cache\6e8df0beadec31b13542fa025ab7b78bd3baa263\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Klaus\.android\build-cache\82084442439c2b8407069e5fb6601918fa014535\output\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:12:9-41
 	android:icon
@@ -51,3 +65,14 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
 		ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:21:27-74
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Klaus\.android\build-cache\ea269d3f05491e9a80a8f539f2924ab75f1edcab\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Klaus\.android\build-cache\7215083d24d0d12a4cfaf942e121772067669bcf\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Klaus\.android\build-cache\930a30fa49d4094629b03a780cd72d31822dbf65\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Klaus\.android\build-cache\ebb24c5ef6464fbb15436beb5a28574c15348136\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Klaus\.android\build-cache\6e8df0beadec31b13542fa025ab7b78bd3baa263\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Klaus\.android\build-cache\82084442439c2b8407069e5fb6601918fa014535\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Klaus\.android\build-cache\ea269d3f05491e9a80a8f539f2924ab75f1edcab\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Klaus\.android\build-cache\ea269d3f05491e9a80a8f539f2924ab75f1edcab\output\AndroidManifest.xml:26:9-47

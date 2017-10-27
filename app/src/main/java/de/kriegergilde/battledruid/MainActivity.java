@@ -1,5 +1,7 @@
 package de.kriegergilde.battledruid;
 
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -45,11 +47,9 @@ import de.kriegergilde.battledruid.model.SpellSkill;
  * async tasks enden nie bzw stapeln ewig (s. debugger)
  * 
  * TODOs ansehen
- *
- * TODO sortierung der spells nicht iO?
  * 
- * st‰be m¸ssen irgendwie resistenzen brechen kˆnnen oder besser werden
- * sp‰testens wenn die ersten npcs 3 resistenzen haben
+ * st√§be m√ºssen irgendwie resistenzen brechen k√∂nnen oder besser werden
+ * sp√§testens wenn die ersten npcs 3 resistenzen haben
  * 
  * testmode beachten!
  * 
@@ -59,7 +59,7 @@ import de.kriegergilde.battledruid.model.SpellSkill;
  * 
  * button in popups
  * 
- * popup best‰tigung bei duell
+ * popup best√§tigung bei duell
  * 
  * effekte entfernen auf gegner bei dessen tod bzw kampfende generell
  * 
@@ -149,7 +149,9 @@ public class MainActivity extends ListActivity {
         
         // Use the SimpleCursorAdapter to show the
         // elements in a ListView
-    	final SpellSkillArrayAdapter adapter = new SpellSkillArrayAdapter( this, druid.getSpellSkills()); 
+		List<SpellSkill> spellSkills = druid.getSpellSkills();
+		Collections.sort(druid.getSpellSkills());
+    	final SpellSkillArrayAdapter adapter = new SpellSkillArrayAdapter( this, spellSkills);
         setListAdapter(adapter);
         
         final ListView list = getListView();
@@ -169,7 +171,7 @@ public class MainActivity extends ListActivity {
             	
             	if (!enemy.isAlive()){
             		// TODO enemy ist tot. Toast ausgeben, reagieren (neuer Gegner oder sowas)
-            		// kampf l‰uft nun nicht mehr?!
+            		// kampf l√§uft nun nicht mehr?!
             		// vorerst: druid lifemax+1, gegner heilen
             		endCombat();
             	} else {
@@ -229,7 +231,7 @@ public class MainActivity extends ListActivity {
         checkRegeneration();
         dataChanged();
         
-        if (enemy.get_id() == 2L){ // TODO sp‰ter anders
+        if (enemy.get_id() == 2L){ // TODO spaeter anders
         	showDialog(DIALOG_STORY_NEXT); 
         }
         
@@ -241,7 +243,7 @@ public class MainActivity extends ListActivity {
 	protected Combatant chooseNextEnemy() {
 		Combatant c = Combatant.findById(db, enemy.get_id() + 1);
 		if (c == null){
-			return enemy; // repeat last enemy forever // TODO ‰ndern?
+			return enemy; // repeat last enemy forever // TODO aendern?
 		} else {
 			return c;
 		}

@@ -18,7 +18,7 @@ import de.kriegergilde.battledruid.common.Rules;
 import de.kriegergilde.battledruid.enums.EffectType;
 import de.kriegergilde.battledruid.enums.Element;
 
-public class SpellSkill {
+public class SpellSkill implements Comparable<SpellSkill> {
 	
     private long _id;
     
@@ -271,6 +271,10 @@ public class SpellSkill {
     public String toString() {
         return "SpellSkill[ _id=" + _id + " ]";
     }
-	
-	
+
+
+	@Override
+	public int compareTo(SpellSkill other) {
+		return this.getSpell().compareTo(other.getSpell());
+	}
 }

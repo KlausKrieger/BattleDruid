@@ -17,7 +17,7 @@ import de.kriegergilde.battledruid.common.Rules;
 import de.kriegergilde.battledruid.enums.EffectType;
 import de.kriegergilde.battledruid.enums.Element;
 
-public class Spell {
+public class Spell implements Comparable<Spell> {
 	
 	private static Map<Long, Spell> spellIdMap = null;
 	private static Map<String, Spell> spellNameTecMap = null;
@@ -186,7 +186,7 @@ public class Spell {
 	}
 
 	public void delete(SQLiteDatabase db) {
-		// TODO Abhängige auch löschen
+		// TODO Abhaengige auch loeschen
 		// Methode derzeit noch nicht verwendet?
 		
 		String where = "_id=?";
@@ -323,9 +323,15 @@ public class Spell {
     public String toString() {
         return "Spell[ _id=" + _id + " ]";
     }
-	
-	
-	
-	
 
+
+	@Override
+	public int compareTo(Spell other) {
+		int cmp = this.getEffectType().compareTo(other.getEffectType());
+		if (cmp == 0) {
+			return this.getElement().compareTo(other.getElement());
+		} else {
+			return cmp;
+		}
+	}
 }

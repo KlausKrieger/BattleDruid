@@ -323,7 +323,7 @@ public class Combatant {
 	}
 
 	public void delete(SQLiteDatabase db) {
-		// TODO auch Abhängige löschen.
+		// TODO auch Abhaengige loeschen.
 		// Methode derzeit noch nicht verwendet?
 		
 		String where = "_id=?";
@@ -611,7 +611,7 @@ public class Combatant {
             			spell.getResEffective(skill), 
             			spell.getNameTec());
         	}
-        	// TODO: evtl repaint der resis auslösen?
+        	// TODO: evtl repaint der resis ausloesen?
         	break;
         default:
         	Toast.makeText(context, 
