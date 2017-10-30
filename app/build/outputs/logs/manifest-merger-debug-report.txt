@@ -1,6 +1,19 @@
 -- Merging decision tree log ---
 manifest
 ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d38525adb5dbad61a207c97a5531a984\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\08e8c13a62957cbec78a70eae4e2eb3a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7f83dbc9421866ba5224157547f3ac2a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b23e7a64950f6420ff9ced81cad0e65\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c978dc0d8d85f39065002f11ea7472e5\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a5ff50de192692cbd494c75a1f7aa354\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b463fbd6be30add221aecba991f14500\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:1:1-26:12
 	package
 		ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:2:5-42
 		INJECTED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml
@@ -9,22 +22,34 @@ ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\Android
 		ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:4:5-30
 		INJECTED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:1:11-69
 	android:versionCode
 		ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:3:5-28
 		INJECTED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml
-	xmlns:android
-		ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:1:11-69
 uses-sdk
 ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:6:5-8:41
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Klaus\.android\build-cache\ea269d3f05491e9a80a8f539f2924ab75f1edcab\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Klaus\.android\build-cache\7215083d24d0d12a4cfaf942e121772067669bcf\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Klaus\.android\build-cache\930a30fa49d4094629b03a780cd72d31822dbf65\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Klaus\.android\build-cache\ebb24c5ef6464fbb15436beb5a28574c15348136\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Klaus\.android\build-cache\6e8df0beadec31b13542fa025ab7b78bd3baa263\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Klaus\.android\build-cache\82084442439c2b8407069e5fb6601918fa014535\output\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d38525adb5dbad61a207c97a5531a984\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d38525adb5dbad61a207c97a5531a984\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\08e8c13a62957cbec78a70eae4e2eb3a\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\08e8c13a62957cbec78a70eae4e2eb3a\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7f83dbc9421866ba5224157547f3ac2a\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7f83dbc9421866ba5224157547f3ac2a\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b23e7a64950f6420ff9ced81cad0e65\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b23e7a64950f6420ff9ced81cad0e65\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c978dc0d8d85f39065002f11ea7472e5\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c978dc0d8d85f39065002f11ea7472e5\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a5ff50de192692cbd494c75a1f7aa354\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a5ff50de192692cbd494c75a1f7aa354\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b463fbd6be30add221aecba991f14500\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b463fbd6be30add221aecba991f14500\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:6:5-8:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Klaus\.android\build-cache\ea269d3f05491e9a80a8f539f2924ab75f1edcab\output\AndroidManifest.xml:23:9-51
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d38525adb5dbad61a207c97a5531a984\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:8:9-38
 		INJECTED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml
@@ -35,12 +60,20 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Klaus\.android\
 		INJECTED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml
 application
 ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:10:5-24:19
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Klaus\.android\build-cache\ea269d3f05491e9a80a8f539f2924ab75f1edcab\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Klaus\.android\build-cache\7215083d24d0d12a4cfaf942e121772067669bcf\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Klaus\.android\build-cache\930a30fa49d4094629b03a780cd72d31822dbf65\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Klaus\.android\build-cache\ebb24c5ef6464fbb15436beb5a28574c15348136\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Klaus\.android\build-cache\6e8df0beadec31b13542fa025ab7b78bd3baa263\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Klaus\.android\build-cache\82084442439c2b8407069e5fb6601918fa014535\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d38525adb5dbad61a207c97a5531a984\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d38525adb5dbad61a207c97a5531a984\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\08e8c13a62957cbec78a70eae4e2eb3a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\08e8c13a62957cbec78a70eae4e2eb3a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7f83dbc9421866ba5224157547f3ac2a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7f83dbc9421866ba5224157547f3ac2a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b23e7a64950f6420ff9ced81cad0e65\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b23e7a64950f6420ff9ced81cad0e65\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c978dc0d8d85f39065002f11ea7472e5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c978dc0d8d85f39065002f11ea7472e5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a5ff50de192692cbd494c75a1f7aa354\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a5ff50de192692cbd494c75a1f7aa354\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b463fbd6be30add221aecba991f14500\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b463fbd6be30add221aecba991f14500\AndroidManifest.xml:24:5-28:19
 	android:label
 		ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:12:9-41
 	android:icon
@@ -66,13 +99,24 @@ ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\Android
 	android:name
 		ADDED from C:\Users\Klaus\AndroidStudioProjects\BattleDruid\app\src\main\AndroidManifest.xml:21:27-74
 meta-data#android.support.VERSION
-ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Klaus\.android\build-cache\ea269d3f05491e9a80a8f539f2924ab75f1edcab\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Klaus\.android\build-cache\7215083d24d0d12a4cfaf942e121772067669bcf\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Klaus\.android\build-cache\930a30fa49d4094629b03a780cd72d31822dbf65\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Klaus\.android\build-cache\ebb24c5ef6464fbb15436beb5a28574c15348136\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Klaus\.android\build-cache\6e8df0beadec31b13542fa025ab7b78bd3baa263\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Klaus\.android\build-cache\82084442439c2b8407069e5fb6601918fa014535\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d38525adb5dbad61a207c97a5531a984\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\08e8c13a62957cbec78a70eae4e2eb3a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\08e8c13a62957cbec78a70eae4e2eb3a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7f83dbc9421866ba5224157547f3ac2a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7f83dbc9421866ba5224157547f3ac2a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b23e7a64950f6420ff9ced81cad0e65\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b23e7a64950f6420ff9ced81cad0e65\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c978dc0d8d85f39065002f11ea7472e5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c978dc0d8d85f39065002f11ea7472e5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a5ff50de192692cbd494c75a1f7aa354\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a5ff50de192692cbd494c75a1f7aa354\AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Klaus\.android\build-cache\ea269d3f05491e9a80a8f539f2924ab75f1edcab\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d38525adb5dbad61a207c97a5531a984\AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Klaus\.android\build-cache\ea269d3f05491e9a80a8f539f2924ab75f1edcab\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d38525adb5dbad61a207c97a5531a984\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b463fbd6be30add221aecba991f14500\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b463fbd6be30add221aecba991f14500\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Klaus\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b463fbd6be30add221aecba991f14500\AndroidManifest.xml:26:13-58
